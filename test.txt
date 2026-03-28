@@ -1,0 +1,20 @@
+time
+/bin/ls
+/bin/ls -l
+/usr/bin/wc shell.c test.txt
+cd dir1
+/bin/ls -a -l > out.txt
+/usr/bin/wc < out.txt
+cd ..
+/bin/cat < shell.c > out.txt
+/usr/bin/wc out.txt
+/bin/pwd | /usr/bin/wc
+/bin/pwd | /usr/bin/wc | /usr/bin/wc
+/bin/cat shell.c | /usr/bin/wc -l -m -c
+/bin/cat shell.c | /usr/bin/wc -l -m -c | /usr/bin/wc
+/bin/ls -l -a | /bin/sort | /usr/bin/wc -c -m -l
+/bin/ls -l | /bin/sort | /usr/bin/wc -l -m | /usr/bin/wc -c -l -m | /usr/bin/wc
+/bin/cat shell.c | /usr/bin/wc | /usr/bin/wc | /usr/bin/wc | /usr/bin/wc | /usr/bin/wc | /usr/bin/wc
+/bin/cat shell.c | /usr/bin/wc > out.txt
+/usr/bin/wc out.txt
+exit

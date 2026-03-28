@@ -1,0 +1,4 @@
+total 0
+drwxr-xr-x@ 3 tasnimhossain  staff   96 Mar 28 16:40 .
+drwxr-xr-x  8 tasnimhossain  staff  256 Mar 28 16:40 ..
+-rw-r--r--@ 1 tasnimhossain  staff    0 Mar 28 16:40 out.txt
